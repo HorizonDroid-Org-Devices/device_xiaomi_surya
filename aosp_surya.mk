@@ -11,22 +11,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common EverestOS stuff.
-$(call inherit-product, vendor/everest/config/common_full_phone.mk)
+# Inherit some common Horizondroid stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Boot animation resolution.
+# Horizon
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 1080
-EVEREST_BUILD_TYPE := UNOFFICIAL
-EVEREST_MAINTAINER := Skyy | HinohArata
 
-# Extra Stuffs
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_BLUR := true
-TARGER_SUPPORTS_NEXT_GEN_ASSISTANT := true
+# Maintainer
+HORIZON_MAINTAINER := Skyy | HinohArata
+HORIZON_BUILD_TYPE := OFFICIAL
 
 # Device Identifier.
-PRODUCT_NAME := everest_surya
+PRODUCT_NAME := aosp_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG
@@ -35,3 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Gapps
 WITH_GMS := true
+
+# Camera
+TARGET_USES_MIUI_CAMERA := true 

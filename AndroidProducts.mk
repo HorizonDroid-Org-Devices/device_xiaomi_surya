@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/everest_surya.mk
+    $(LOCAL_DIR)/aosp_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    everest_surya-user \
-    everest_surya-userdebug \
-    everest_surya-eng
+    aosp_surya-user \
+    aosp_surya-userdebug \
+    aosp_surya-eng
