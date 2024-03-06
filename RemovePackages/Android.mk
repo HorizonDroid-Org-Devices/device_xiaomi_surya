@@ -9,8 +9,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     AndroidAutoStubPrebuilt \
     arcore \
     Camera2 \
-    Chrome \
-    Chrome-Stub \
     ConnMO \
     ConnMetrics \
     DCMO \
@@ -20,7 +18,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Gallery \
     Gallery2 \
     GCS \
-    GoogleCamera \
     Maps \
     Music \
     MusicFX \
@@ -39,9 +36,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     SCONE \
     ScribePrebuilt \
     Showcase \
-    Snap \
-    Snap2 \
-    SnapdragonCamera \
     SoundAmplifierPrebuilt \
     SprintDM \
     SprintHM \
