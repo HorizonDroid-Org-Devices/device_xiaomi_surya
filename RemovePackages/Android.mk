@@ -8,7 +8,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     AndroidAutoStubPrebuilt \
     arcore \
-    Camera2 \
     ConnMO \
     ConnMetrics \
     DCMO \
