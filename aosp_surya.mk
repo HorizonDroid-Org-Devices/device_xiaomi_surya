@@ -22,7 +22,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Maintainer
 HORIZON_MAINTAINER := Skyy | HinohArata
-HORIZON_BUILD_TYPE := OFFICIAL
 
 # Device Identifier.
 PRODUCT_NAME := aosp_surya
@@ -35,5 +34,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Gapps
 WITH_GMS := true
 
-# Camera
-TARGET_USES_MIUI_CAMERA := true 
